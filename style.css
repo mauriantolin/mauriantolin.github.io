@@ -1,0 +1,172 @@
+@font-face {
+  font-family: "manrope";
+  src: url("Manrope-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: manrope;
+  /* border: 1px solid; */
+}
+
+:root {
+  --color-gradient: (linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%));
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  height: 1000px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  margin: 0;
+  padding: 20px 0;
+  height: 50px;
+  display: inline;
+}
+
+footer {
+  background-color: rgb(238, 235, 235);
+  height: 70px;
+  box-sizing: border-box;
+}
+
+footer p {
+  display: inline;
+}
+
+.header ul li {
+  display: inline;
+  padding: 0px 20px;
+  font-weight: 700;
+  font-size: large;
+}
+
+.header ul {
+  position: relative;
+  top: 15px;
+  width: 300px;
+  text-align: right;
+  float: right;
+}
+
+nav a {
+  color: black;
+}
+
+nav a:hover {
+  color: #b621fe;
+}
+
+.text {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 1000;
+  background: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tag {
+  color: rgb(250, 2, 10);
+}
+
+.name {
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+  top: 150px;
+  height: 300px;
+}
+
+.header {
+  background-color: rgb(238, 235, 235);
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  box-sizing: border-box;
+  z-index: 5;
+  border-radius: 25;
+}
+
+.description p {
+  width: 500px;
+  text-align: justify;
+  margin: 50px 35px 50px 200px;
+  box-sizing: border-box;
+}
+
+.description img {
+  box-shadow: -10px 10px #b621fe;
+}
+
+.about {
+  font-weight: 400;
+  display: inline-block;
+}
+
+.project {
+  width: 100%;
+  text-align: center;
+}
+
+.project h2 {
+  margin-top: 80px;
+  background: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+}
+
+.project li {
+  box-sizing: border-box;
+  width: 80px;
+  height: 100px;
+  border: 1px solid rgb(50, 40, 189);
+  border-radius: 10px;
+  padding: 30px 0px;
+  margin: 20px 40px;
+  display: inline-block;
+}
+
+.project li:hover {
+  box-shadow: -10px 10px #b621fe;
+  position: relative;
+  left: 5px;
+  bottom: 5px;
+  background-color: rgb(197, 197, 197);
+}
+
+.picu-img {
+  display: inline;
+  border-radius: 50%;
+  position: relative;
+  top: 85px;
+}
+
+.mail {
+  position: relative;
+  top: 20px;
+  left: 40px;
+}
+
+.copy {
+  position: relative;
+  top: 40px;
+  left: 35%;
+}
+
+.icon {
+  border-radius: 50%;
+}
